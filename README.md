@@ -47,3 +47,17 @@ http://127.0.0.1:8000/curva/interpolada?prazo_dias=100
   "taxa_percentual_interpolada": 10.7333
 }
 ```
+
+## Autor
+**Sebastião Venâncio**  
+Graduando em Engenharia de Computação pela UFSCar
+
+- GitHub: [@tiaovenancio](https://github.com/TiaoVenanincio)
+- LinkedIn: [linkedin.com/in/tiaovenancio](https://www.linkedin.com/in/sebastiao-venancio/)
+- E-mail: tiaovenancio2@gmail.com
+
+Se quiser trocar uma ideia, colaborar ou sugerir melhorias, fique à vontade!
+
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT: [LICENSE](LICENSE).
