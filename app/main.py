@@ -18,7 +18,7 @@ def obter_taxa(prazo_dias: int = Query(..., gt=0)):
 def obter_taxa_n_pontos(qtd_pontos: int = Query(..., gt=0)):
     data_valor = {}
     hoje = datetime.now().date()
-    for i in range(1, qtd_pontos):
+    for i in range(1, qtd_pontos + 1):
         data_ponto = hoje + timedelta(days=i)
         data_valor[data_ponto.strftime('%d/%m/%Y')] = curva.taxa_para_prazo(i)
     return data_valor
